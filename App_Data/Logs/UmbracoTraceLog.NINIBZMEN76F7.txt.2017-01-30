@@ -1,0 +1,2749 @@
+﻿ 2017-01-30 21:37:41,308 [P7144/D5/T106] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-30 21:38:15,465 [P8064/D2/T14] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-29 21:38:15
+ 2017-01-30 21:38:37,672 [P8064/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-01-30 21:38:37,672 [P8064/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-01-30 21:38:37,672 [P8064/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-01-30 21:38:37,672 [P8064/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-01-30 21:38:37,688 [P8064/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-01-30 21:38:37,688 [P8064/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-01-30 21:38:37,710 [P8064/D2/T13] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-01-30 21:38:37,710 [P8064/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-01-30 21:38:37,710 [P8064/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-01-30 21:38:38,031 [P8064/D2/T17] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-01-30 21:38:38,094 [P8064/D2/T17] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-01-30 21:38:38,094 [P8064/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-01-30 21:38:38,094 [P8064/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-01-30 21:38:38,095 [P8064/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-01-30 21:38:38,095 [P8064/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-01-30 21:38:38,095 [P8064/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-01-30 21:38:38,095 [P8064/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-01-30 21:38:38,337 [P7144/D5/T34] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-01-30 21:38:38,420 [P7144/D5/T34] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-01-30 21:39:08,213 [P8064/D2/T12] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=Change in App_Offline.htm
+HostingEnvironment initiated shutdown
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+HostingEnvironment orsakade avslut
+
+_shutDownStack=   vid System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   vid System.Environment.get_StackTrace()
+   vid System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   vid System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   vid System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   vid System.Web.HttpRuntime.OnAppOfflineFileChange(Object sender, FileChangeEvent e)
+   vid System.Web.DirectoryMonitor.FireNotifications()
+   vid System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   vid System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   vid System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   vid System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   vid System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   vid System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   vid System.Threading.ThreadPoolWorkQueue.Dispatch()
+   vid System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-01-30 21:39:08,476 [P7144/D5/T34] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=Change in App_Offline.htm
+HostingEnvironment initiated shutdown
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnAppOfflineFileChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-01-30 22:12:23,734 [P8064/D3/T18] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.7 application starting on NINIBZMEN76F7
+ 2017-01-30 22:12:23,755 [P8064/D3/T18] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-01-30 22:12:23,770 [P8064/D3/T18] INFO  Umbraco.Core.PluginManager - Hash determined (took 19ms)
+ 2017-01-30 22:12:23,842 [P8064/D3/T18] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-01-30 22:12:23,842 [P8064/D3/T18] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-01-30 22:12:23,849 [P8064/D3/T18] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-01-30 22:12:24,227 [P8064/D3/T18] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 377ms)
+ 2017-01-30 22:12:24,239 [P8064/D3/T18] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-01-30 22:12:24,255 [P8064/D3/T18] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 16ms)
+ 2017-01-30 22:12:24,256 [P8064/D3/T18] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-01-30 22:12:24,274 [P8064/D3/T18] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 17ms)
+ 2017-01-30 22:12:24,287 [P8064/D3/T18] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-01-30 22:12:24,311 [P8064/D3/T18] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 22ms)
+ 2017-01-30 22:12:24,311 [P8064/D3/T18] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-01-30 22:12:24,339 [P8064/D3/T18] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 27ms)
+ 2017-01-30 22:12:24,341 [P8064/D3/T18] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-01-30 22:12:24,356 [P8064/D3/T18] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 13ms)
+ 2017-01-30 22:12:24,356 [P8064/D3/T18] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-01-30 22:12:24,371 [P8064/D3/T18] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 14ms)
+ 2017-01-30 22:12:25,504 [P8064/D3/T18] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-30 22:12:25,621 [P8064/D3/T18] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Models.PublishedContent.PublishedContentModel
+ 2017-01-30 22:12:25,637 [P8064/D3/T18] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Models.PublishedContent.PublishedContentModel, found 0 (took 14ms)
+ 2017-01-30 22:12:25,697 [P8064/D3/T18] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-01-30 22:12:25,725 [P8064/D3/T18] INFO  umbraco.content - Load Xml from file...
+ 2017-01-30 22:12:25,725 [P8064/D3/T18] INFO  umbraco.content - Loaded Xml from file.
+ 2017-01-30 22:12:26,133 [P8064/D3/T18] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-01-30 22:12:26,157 [P8064/D3/T18] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 24ms)
+ 2017-01-30 22:12:28,689 [P8064/D3/T18] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-01-30 22:12:28,741 [P8064/D3/T18] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-01-30 22:12:29,844 [P8064/D3/T18] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 6174ms)
+ 2017-01-30 22:12:30,100 [P8064/D3/T12] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:4067/umbraco (UmbracoModule request)
+ 2017-01-30 22:12:30,622 [P8064/D3/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-01-30 22:12:30,642 [P8064/D3/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 18ms)
+ 2017-01-30 22:12:46,151 [P8064/D3/T5] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-30 22:13:30,307 [P8064/D3/T10] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-29 22:13:30
+ 2017-01-30 22:13:47,440 [P11088/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.7 application starting on NINIBZMEN76F7
+ 2017-01-30 22:13:47,481 [P11088/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-01-30 22:13:47,496 [P11088/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 16ms)
+ 2017-01-30 22:13:47,589 [P11088/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-01-30 22:13:47,598 [P11088/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-01-30 22:13:47,612 [P11088/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-01-30 22:13:47,639 [P11088/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 26ms)
+ 2017-01-30 22:13:47,684 [P11088/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-01-30 22:13:47,685 [P11088/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2017-01-30 22:13:47,686 [P11088/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-01-30 22:13:47,687 [P11088/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2017-01-30 22:13:47,717 [P11088/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-01-30 22:13:47,719 [P11088/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2017-01-30 22:13:47,720 [P11088/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-01-30 22:13:47,729 [P11088/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 8ms)
+ 2017-01-30 22:13:47,737 [P11088/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-01-30 22:13:47,738 [P11088/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2017-01-30 22:13:47,738 [P11088/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-01-30 22:13:47,738 [P11088/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-01-30 22:13:49,962 [P11088/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-30 22:13:50,195 [P11088/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Models.PublishedContent.PublishedContentModel
+ 2017-01-30 22:13:50,196 [P11088/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Models.PublishedContent.PublishedContentModel, found 0 (took 1ms)
+ 2017-01-30 22:13:50,354 [P11088/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-01-30 22:13:50,431 [P11088/D2/T1] INFO  umbraco.content - Load Xml from file...
+ 2017-01-30 22:13:50,443 [P11088/D2/T1] INFO  umbraco.content - Loaded Xml from file.
+ 2017-01-30 22:13:51,327 [P11088/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-01-30 22:13:51,330 [P11088/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2017-01-30 22:13:52,681 [P11088/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-01-30 22:13:52,761 [P11088/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-01-30 22:13:54,029 [P11088/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 6719ms)
+ 2017-01-30 22:13:54,481 [P11088/D2/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://local.underlakare.se:80/umbraco (UmbracoModule request)
+ 2017-01-30 22:13:54,935 [P11088/D2/T7] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-30 22:14:28,836 [P11088/D2/T18] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-30 22:14:54,697 [P8064/D3/T9] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-30 22:14:54,940 [P11088/D2/T7] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-29 22:14:54
+ 2017-01-30 22:14:55,455 [P11088/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-01-30 22:14:55,456 [P11088/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2017-01-30 22:16:05,331 [P8064/D3/T19] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-30 22:16:21,277 [P8064/D3/T9] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-30 22:16:28,444 [P8064/D3/T15] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-30 22:17:10,284 [P8064/D3/T19] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username ninib.ozmen@bbm.bonnier.se from IP address ::1
+ 2017-01-30 22:17:10,284 [P8064/D3/T19] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: ninib.ozmen@bbm.bonnier.se logged in from IP address ::1
+ 2017-01-30 22:17:10,450 [P8064/D3/T19] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-01-30 22:17:10,470 [P8064/D3/T19] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 18ms)
+ 2017-01-30 22:17:10,668 [P8064/D3/T28] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-01-30 22:17:10,842 [P8064/D3/T28] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 174ms)
+ 2017-01-30 22:17:11,254 [P8064/D3/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-01-30 22:17:11,255 [P8064/D3/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2017-01-30 22:17:11,259 [P8064/D3/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-01-30 22:17:11,318 [P8064/D3/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 62ms)
+ 2017-01-30 22:17:11,467 [P8064/D3/T28] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-01-30 22:17:11,623 [P8064/D3/T28] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 157ms)
+ 2017-01-30 22:17:52,133 [P8064/D3/T19] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-30 22:18:12,085 [P8064/D3/T15] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-30 22:21:39,778 [P8064/D3/T27] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-01-30 22:21:39,778 [P8064/D3/T27] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-01-30 22:21:39,778 [P8064/D3/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-01-30 22:21:39,893 [P8064/D3/T27] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index is currently locked,, IndexSet: InternalIndexSet
+ 2017-01-30 22:21:39,939 [P8064/D3/T27] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-01-30 22:21:39,939 [P8064/D3/T27] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-01-30 22:21:39,940 [P8064/D3/T27] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-01-30 22:21:39,940 [P8064/D3/T27] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-01-30 22:21:39,940 [P8064/D3/T27] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-01-30 22:21:39,940 [P8064/D3/T27] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-01-30 22:21:39,941 [P8064/D3/T27] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-01-30 22:21:39,949 [P8064/D3/T27] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-01-30 22:21:39,949 [P8064/D3/T27] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-01-30 22:21:39,949 [P8064/D3/T27] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-01-30 22:21:39,949 [P8064/D3/T27] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-01-30 22:21:39,949 [P8064/D3/T27] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-01-30 22:21:39,949 [P8064/D3/T27] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-01-30 22:21:39,949 [P8064/D3/T27] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-01-30 22:22:10,094 [P11088/D2/T15] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-01-30 22:22:21,587 [P6408/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.7 application starting on NINIBZMEN76F7
+ 2017-01-30 22:22:21,615 [P6408/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-01-30 22:22:21,629 [P6408/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 13ms)
+ 2017-01-30 22:22:21,715 [P6408/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-01-30 22:22:21,715 [P6408/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-01-30 22:22:21,747 [P6408/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-01-30 22:22:22,270 [P6408/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 523ms)
+ 2017-01-30 22:22:22,296 [P6408/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-01-30 22:22:22,323 [P6408/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 26ms)
+ 2017-01-30 22:22:22,324 [P6408/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-01-30 22:22:22,341 [P6408/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 17ms)
+ 2017-01-30 22:22:22,356 [P6408/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-01-30 22:22:22,372 [P6408/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 16ms)
+ 2017-01-30 22:22:22,373 [P6408/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-01-30 22:22:22,390 [P6408/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 16ms)
+ 2017-01-30 22:22:22,398 [P6408/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-01-30 22:22:22,421 [P6408/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 22ms)
+ 2017-01-30 22:22:22,421 [P6408/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-01-30 22:22:22,435 [P6408/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 13ms)
+ 2017-01-30 22:22:23,969 [P6408/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-30 22:22:24,285 [P6408/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Models.PublishedContent.PublishedContentModel
+ 2017-01-30 22:22:24,305 [P6408/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Models.PublishedContent.PublishedContentModel, found 0 (took 21ms)
+ 2017-01-30 22:22:24,392 [P6408/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-01-30 22:22:24,413 [P6408/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-01-30 22:22:24,522 [P6408/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-01-30 22:22:24,578 [P6408/D2/T1] INFO  umbraco.content - Load Xml from file...
+ 2017-01-30 22:22:24,582 [P6408/D2/T1] INFO  umbraco.content - Loaded Xml from file.
+ 2017-01-30 22:22:25,450 [P6408/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-01-30 22:22:25,488 [P6408/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 37ms)
+ 2017-01-30 22:22:28,273 [P6408/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 6808ms)
+ 2017-01-30 22:22:28,992 [P6408/D2/T8] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:4067/umbraco (UmbracoModule request)
+ 2017-01-30 22:22:30,034 [P6408/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-01-30 22:22:30,110 [P6408/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 76ms)
+ 2017-01-30 22:22:49,090 [P6408/D2/T16] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-30 22:22:55,941 [P6408/D2/T8] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-30 22:23:25,834 [P6408/D2/T8] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-30 22:23:29,507 [P6408/D2/T15] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-29 22:23:29
+ 2017-01-30 22:24:05,512 [P6408/D2/T10] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-30 23:49:03,352 [P7760/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.7 application starting on NINIBZMEN76F7
+ 2017-01-30 23:49:03,376 [P7760/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-01-30 23:49:03,383 [P7760/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 11ms)
+ 2017-01-30 23:49:03,469 [P7760/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-01-30 23:49:03,474 [P7760/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-01-30 23:49:03,479 [P7760/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-01-30 23:49:03,847 [P7760/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 368ms)
+ 2017-01-30 23:49:03,862 [P7760/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-01-30 23:49:03,885 [P7760/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 23ms)
+ 2017-01-30 23:49:03,886 [P7760/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-01-30 23:49:03,908 [P7760/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 21ms)
+ 2017-01-30 23:49:03,921 [P7760/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-01-30 23:49:03,941 [P7760/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 20ms)
+ 2017-01-30 23:49:03,942 [P7760/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-01-30 23:49:03,967 [P7760/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 24ms)
+ 2017-01-30 23:49:03,974 [P7760/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-01-30 23:49:03,986 [P7760/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 11ms)
+ 2017-01-30 23:49:03,993 [P7760/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-01-30 23:49:04,016 [P7760/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 20ms)
+ 2017-01-30 23:49:05,270 [P7760/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-30 23:49:05,407 [P7760/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Models.PublishedContent.PublishedContentModel
+ 2017-01-30 23:49:05,424 [P7760/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Models.PublishedContent.PublishedContentModel, found 0 (took 17ms)
+ 2017-01-30 23:49:05,484 [P7760/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-01-30 23:49:05,504 [P7760/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-01-30 23:49:05,566 [P7760/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-01-30 23:49:05,610 [P7760/D2/T1] INFO  umbraco.content - Load Xml from file...
+ 2017-01-30 23:49:05,615 [P7760/D2/T1] INFO  umbraco.content - Loaded Xml from file.
+ 2017-01-30 23:49:06,135 [P7760/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-01-30 23:49:06,175 [P7760/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 40ms)
+ 2017-01-30 23:49:07,988 [P7760/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4707ms)
+ 2017-01-30 23:49:08,257 [P7760/D2/T6] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:4067/umbraco (UmbracoModule request)
+ 2017-01-30 23:49:08,860 [P7760/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-01-30 23:49:08,907 [P7760/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 47ms)
+ 2017-01-30 23:49:24,696 [P7760/D2/T11] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-30 23:50:08,453 [P7760/D2/T15] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-29 23:50:08
+ 2017-01-30 23:51:37,870 [P7760/D2/T8] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-30 23:51:59,800 [P7760/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-01-30 23:51:59,800 [P7760/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-01-30 23:51:59,800 [P7760/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-01-30 23:51:59,800 [P7760/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-01-30 23:51:59,800 [P7760/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-01-30 23:51:59,800 [P7760/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-01-30 23:51:59,801 [P7760/D2/T19] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-01-30 23:51:59,801 [P7760/D2/T14] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-01-30 23:51:59,801 [P7760/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-01-30 23:51:59,879 [P7760/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-01-30 23:51:59,879 [P7760/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-01-30 23:51:59,879 [P7760/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-01-30 23:51:59,880 [P7760/D2/T6] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-01-30 23:51:59,882 [P7760/D2/T6] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-01-30 23:51:59,883 [P7760/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-01-30 23:51:59,883 [P7760/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-01-30 23:51:59,883 [P7760/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-01-30 23:52:22,936 [P7760/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.7 application starting on NINIBZMEN76F7
+ 2017-01-30 23:52:23,008 [P7760/D3/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-01-30 23:52:23,041 [P7760/D3/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 34ms)
+ 2017-01-30 23:52:23,110 [P7760/D3/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-01-30 23:52:23,124 [P7760/D3/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-01-30 23:52:23,139 [P7760/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-01-30 23:52:23,553 [P7760/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 413ms)
+ 2017-01-30 23:52:23,571 [P7760/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-01-30 23:52:23,598 [P7760/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 27ms)
+ 2017-01-30 23:52:23,600 [P7760/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-01-30 23:52:23,638 [P7760/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 38ms)
+ 2017-01-30 23:52:23,652 [P7760/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-01-30 23:52:23,677 [P7760/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 23ms)
+ 2017-01-30 23:52:23,678 [P7760/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-01-30 23:52:23,708 [P7760/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 30ms)
+ 2017-01-30 23:52:23,711 [P7760/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-01-30 23:52:23,746 [P7760/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 34ms)
+ 2017-01-30 23:52:23,751 [P7760/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-01-30 23:52:23,772 [P7760/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 21ms)
+ 2017-01-30 23:52:25,103 [P7760/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-30 23:52:25,251 [P7760/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Models.PublishedContent.PublishedContentModel
+ 2017-01-30 23:52:25,269 [P7760/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Models.PublishedContent.PublishedContentModel, found 0 (took 18ms)
+ 2017-01-30 23:52:25,333 [P7760/D3/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-01-30 23:52:25,357 [P7760/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-01-30 23:52:25,436 [P7760/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-01-30 23:52:25,472 [P7760/D3/T1] INFO  umbraco.content - Load Xml from file...
+ 2017-01-30 23:52:25,482 [P7760/D3/T1] INFO  umbraco.content - Loaded Xml from file.
+ 2017-01-30 23:52:25,977 [P7760/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-01-30 23:52:26,013 [P7760/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 36ms)
+ 2017-01-30 23:52:29,939 [P7760/D2/T8] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Change in C:\Users\ninibozmen\AppData\Local\Temp\Temporary ASP.NET Files\vs\5843a873\314e101f\hash\hash.web
+Change in C:\Users\ninibozmen\AppData\Local\Temp\Temporary ASP.NET Files\vs\5843a873\314e101f\hash\hash.web
+HostingEnvironment orsakade avslut
+
+_shutDownStack=   vid System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   vid System.Environment.get_StackTrace()
+   vid System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   vid System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   vid System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   vid System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   vid System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   vid System.Web.DirectoryMonitor.FireNotifications()
+   vid System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   vid System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   vid System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   vid System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   vid System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   vid System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   vid System.Threading.ThreadPoolWorkQueue.Dispatch()
+   vid System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-01-30 23:52:30,242 [P7760/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 7384ms)
+ 2017-01-30 23:52:30,558 [P7760/D3/T6] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:4067/umbraco (UmbracoModule request)
+ 2017-01-30 23:52:30,862 [P7760/D3/T6] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-30 23:53:30,799 [P7760/D3/T12] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-29 23:53:30
+ 2017-01-30 23:53:31,428 [P7760/D3/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-01-30 23:53:31,455 [P7760/D3/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 27ms)
+ 2017-01-30 23:53:37,130 [P7132/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.7 application starting on NINIBZMEN76F7
+ 2017-01-30 23:53:37,164 [P7132/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-01-30 23:53:37,184 [P7132/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 17ms)
+ 2017-01-30 23:53:37,273 [P7132/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-01-30 23:53:37,275 [P7132/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-01-30 23:53:37,285 [P7132/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-01-30 23:53:37,321 [P7132/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 34ms)
+ 2017-01-30 23:53:37,369 [P7132/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-01-30 23:53:37,371 [P7132/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2017-01-30 23:53:37,371 [P7132/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-01-30 23:53:37,372 [P7132/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2017-01-30 23:53:37,409 [P7132/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-01-30 23:53:37,418 [P7132/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 9ms)
+ 2017-01-30 23:53:37,418 [P7132/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-01-30 23:53:37,422 [P7132/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 4ms)
+ 2017-01-30 23:53:37,435 [P7132/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-01-30 23:53:37,436 [P7132/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2017-01-30 23:53:37,436 [P7132/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-01-30 23:53:37,437 [P7132/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-01-30 23:53:39,823 [P7132/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-30 23:53:40,058 [P7132/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Models.PublishedContent.PublishedContentModel
+ 2017-01-30 23:53:40,060 [P7132/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Models.PublishedContent.PublishedContentModel, found 0 (took 1ms)
+ 2017-01-30 23:53:40,171 [P7132/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-01-30 23:53:40,224 [P7132/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-01-30 23:53:40,314 [P7132/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-01-30 23:53:40,351 [P7132/D2/T1] INFO  umbraco.content - Load Xml from file...
+ 2017-01-30 23:53:40,359 [P7132/D2/T1] INFO  umbraco.content - Loaded Xml from file.
+ 2017-01-30 23:53:41,281 [P7132/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-01-30 23:53:41,298 [P7132/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 17ms)
+ 2017-01-30 23:53:43,445 [P7132/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 6443ms)
+ 2017-01-30 23:53:43,972 [P7132/D2/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://local.underlakare.se:80/umbraco (UmbracoModule request)
+ 2017-01-30 23:53:44,410 [P7132/D2/T11] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-30 23:54:44,319 [P7132/D2/T14] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-29 23:54:44
+ 2017-01-30 23:54:44,733 [P7132/D2/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-01-30 23:54:44,735 [P7132/D2/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2017-01-30 23:56:38,083 [P7760/D3/T29] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-01-30 23:56:38,083 [P7760/D3/T29] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-01-30 23:56:38,084 [P7760/D3/T29] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-01-30 23:56:38,084 [P7760/D3/T29] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-01-30 23:56:38,084 [P7760/D3/T14] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-01-30 23:56:38,093 [P7760/D3/T29] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-01-30 23:56:38,093 [P7760/D3/T29] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-01-30 23:56:38,093 [P7760/D3/T29] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-01-30 23:56:38,094 [P7760/D3/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-01-30 23:56:38,095 [P7760/D3/T29] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-01-30 23:56:38,107 [P7760/D3/T29] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-01-30 23:56:38,107 [P7760/D3/T29] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-01-30 23:56:38,107 [P7760/D3/T29] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-01-30 23:56:38,107 [P7760/D3/T29] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-01-30 23:56:38,107 [P7760/D3/T29] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-01-30 23:56:38,107 [P7760/D3/T29] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-01-30 23:56:38,107 [P7760/D3/T15] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-01-30 23:56:39,103 [P7132/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-01-30 23:56:39,103 [P7132/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-01-30 23:56:39,105 [P7132/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-01-30 23:56:39,105 [P7132/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-01-30 23:56:39,105 [P7132/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-01-30 23:56:39,105 [P7132/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-01-30 23:56:39,105 [P7132/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-01-30 23:56:39,105 [P7132/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-01-30 23:56:39,105 [P7132/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-01-30 23:56:39,105 [P7132/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-01-30 23:56:39,105 [P7132/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-01-30 23:56:39,105 [P7132/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-01-30 23:56:39,107 [P7132/D2/T11] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-01-30 23:56:39,125 [P7132/D2/T11] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-01-30 23:56:39,125 [P7132/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-01-30 23:56:39,125 [P7132/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-01-30 23:56:39,125 [P7132/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-01-30 23:56:50,974 [P7132/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.7 application starting on NINIBZMEN76F7
+ 2017-01-30 23:56:51,007 [P7132/D3/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-01-30 23:56:51,034 [P7132/D3/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 27ms)
+ 2017-01-30 23:56:51,127 [P7132/D3/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-01-30 23:56:51,140 [P7132/D3/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-01-30 23:56:51,151 [P7132/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-01-30 23:56:51,550 [P7132/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 399ms)
+ 2017-01-30 23:56:51,580 [P7132/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-01-30 23:56:51,612 [P7132/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 31ms)
+ 2017-01-30 23:56:51,613 [P7132/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-01-30 23:56:51,631 [P7132/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 17ms)
+ 2017-01-30 23:56:51,648 [P7132/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-01-30 23:56:51,671 [P7132/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 23ms)
+ 2017-01-30 23:56:51,672 [P7132/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-01-30 23:56:51,732 [P7132/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 60ms)
+ 2017-01-30 23:56:51,732 [P7132/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-01-30 23:56:51,756 [P7132/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 20ms)
+ 2017-01-30 23:56:51,756 [P7132/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-01-30 23:56:51,792 [P7132/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 35ms)
+ 2017-01-30 23:56:53,830 [P7132/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-30 23:56:54,026 [P7132/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Models.PublishedContent.PublishedContentModel
+ 2017-01-30 23:56:54,052 [P7132/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Models.PublishedContent.PublishedContentModel, found 0 (took 26ms)
+ 2017-01-30 23:56:54,140 [P7132/D3/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-01-30 23:56:55,473 [P7132/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-01-30 23:56:55,562 [P7132/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-01-30 23:56:55,595 [P7132/D3/T1] INFO  umbraco.content - Load Xml from file...
+ 2017-01-30 23:56:55,596 [P7132/D3/T1] INFO  umbraco.content - Loaded Xml from file.
+ 2017-01-30 23:56:56,356 [P7132/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-01-30 23:56:56,394 [P7132/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 38ms)
+ 2017-01-30 23:57:00,334 [P7132/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 9478ms)
+ 2017-01-30 23:57:01,531 [P7132/D3/T19] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://local.underlakare.se:80/umbraco (UmbracoModule request)
+ 2017-01-30 23:57:01,952 [P7132/D3/T19] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-30 23:57:08,160 [P7760/D3/T15] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+Ändringsaviseringar för viktiga kataloger.
+bin dir change or directory rename
+HostingEnvironment orsakade avslut
+
+_shutDownStack=   vid System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   vid System.Environment.get_StackTrace()
+   vid System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   vid System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   vid System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   vid System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   vid System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   vid System.Web.DirectoryMonitor.FireNotifications()
+   vid System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   vid System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   vid System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   vid System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   vid System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   vid System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   vid System.Threading.ThreadPoolWorkQueue.Dispatch()
+   vid System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-01-30 23:57:09,146 [P7132/D2/T11] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\2dec27a5\314e101f\hash\hash.web
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\2dec27a5\314e101f\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-01-30 23:57:59,864 [P7132/D3/T16] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-30 23:58:01,848 [P7132/D3/T17] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-29 23:58:01
+ 2017-01-30 23:58:02,122 [P7132/D3/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-01-30 23:58:02,138 [P7132/D3/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 15ms)
+ 2017-01-30 23:58:27,971 [P7132/D3/T19] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.

@@ -26,7 +26,6 @@ namespace UnderlakareCmsDialogue
         {
             //ensure the default options are configured
             base.Configuration(app);
-
             /* 
              * Configure external logins for the back office:
              * 
