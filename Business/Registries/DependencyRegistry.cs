@@ -25,7 +25,7 @@ namespace UnderlakareCmsDialogue.Business.Registries
                 .As<ITopicsService>()
                 .WithParameter("topicService", ServiceFactory.TopicService);
 
-            builder.RegisterType < Services.MemberService>()
+            builder.RegisterType <Services.MemberService>()
                 .As<IMembersService>()
                 .WithParameter("memberService", ServiceFactory.MemberService);
 

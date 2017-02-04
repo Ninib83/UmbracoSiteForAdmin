@@ -12,7 +12,7 @@ namespace UnderlakareCmsDialogue.Business.Entities
         {
             Id = id;
             UserName = username;
-            Email = Email;
+            Email = email;
         }
 
 
